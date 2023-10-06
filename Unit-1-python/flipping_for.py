@@ -40,3 +40,4 @@ wp= {
 }
 for x in wp:
     print (x)
+    # The code isn't really what i expected because i thoght it eould print 
