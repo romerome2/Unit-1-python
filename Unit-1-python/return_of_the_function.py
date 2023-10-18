@@ -6,6 +6,9 @@ def add_num(a):
     return a * a
 x = add_num(10)
 print(x)
+assert add_num (10) == 100
+assert add_num(5) == 25
+# Asserterror if you get another answer and its not 100.
 
 # I made a program that times the variable by it self to bet its answer
 
@@ -17,6 +20,8 @@ def add_area(a,b):
     return a * b
 x = add_area(12,4)
 print(x)
+assert add_area (12,4) == 48
+assert add_area (13,3) == 39
 # Basically in this function we just multiplied the variable value and got an answer.
 
 """
@@ -28,6 +33,8 @@ def con_cf(b):
     return b * 9 / 5 + 32
 x = con_cf(95)
 print(x)
+assert con_cf(95) == 203.0
+
  # I made a program tha calculates the fahrenheit.
 """
 Task 4: Calculate the Average of Numbers:
